@@ -19,7 +19,7 @@ from graphrag.llm.types import (
 from ._json import clean_up_json
 from ._prompts import JSON_CHECK_PROMPT
 from .openai_configuration import OpenAIConfiguration
-from .types import OpenAIClientTypes
+from .openai_types import OpenAIClientTypes
 from .utils import (
     get_completion_llm_args,
     try_parse_json_object,

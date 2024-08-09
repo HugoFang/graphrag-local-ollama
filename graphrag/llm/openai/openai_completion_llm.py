@@ -15,7 +15,7 @@ from graphrag.llm.types import (
 )
 
 from .openai_configuration import OpenAIConfiguration
-from .types import OpenAIClientTypes
+from .openai_types import OpenAIClientTypes
 from .utils import get_completion_llm_args
 
 log = logging.getLogger(__name__)

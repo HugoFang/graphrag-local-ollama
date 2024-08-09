@@ -24,7 +24,7 @@ from .openai_configuration import OpenAIConfiguration
 from .openai_embeddings_llm import OpenAIEmbeddingsLLM
 from .openai_history_tracking_llm import OpenAIHistoryTrackingLLM
 from .openai_token_replacing_llm import OpenAITokenReplacingLLM
-from .types import OpenAIClientTypes
+from .openai_types import OpenAIClientTypes
 from .utils import (
     RATE_LIMIT_ERRORS,
     RETRYABLE_ERRORS,

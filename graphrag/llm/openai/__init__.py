@@ -13,7 +13,7 @@ from .openai_chat_llm import OpenAIChatLLM
 from .openai_completion_llm import OpenAICompletionLLM
 from .openai_configuration import OpenAIConfiguration
 from .openai_embeddings_llm import OpenAIEmbeddingsLLM
-from .types import OpenAIClientTypes
+from .openai_types import OpenAIClientTypes
 
 __all__ = [
     "OpenAIChatLLM",
