@@ -28,6 +28,6 @@ class OpenAIEmbeddingsLLM(BaseLLM[EmbeddingInput, EmbeddingOutput]):
         }
         embedding_list = []
         for inp in input:
-            embedding = ollama.embeddings(model="nomic-embed-text", prompt=inp)
+            embedding = ollama.embeddings(model="znbang/bge:large-zh-v1.5-f32", prompt=inp)
             embedding_list.append(embedding["embedding"])
         return embedding_list
